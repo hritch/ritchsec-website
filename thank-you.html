@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thank You — RitchSec</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: #F8F6F3;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    .thankyou-section {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 80px 24px;
+      text-align: center;
+    }
+    .thankyou-card {
+      background: #FFFFFF;
+      border-radius: 4px;
+      padding: 56px 48px;
+      max-width: 580px;
+      width: 100%;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+      border-top: 4px solid #C8102E;
+    }
+    .check-icon {
+      width: 56px;
+      height: 56px;
+      background: #C8102E;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 24px;
+    }
+    .check-icon svg {
+      width: 28px;
+      height: 28px;
+      stroke: #ffffff;
+      stroke-width: 3;
+      fill: none;
+    }
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 32px;
+      color: #1A1A1A;
+      margin: 0 0 16px;
+    }
+    p {
+      font-size: 17px;
+      color: #5F5E5A;
+      line-height: 1.7;
+      margin: 0 0 12px;
+    }
+    .signature {
+      font-size: 15px;
+      color: #2C2C2A;
+      font-weight: 600;
+      margin-top: 24px;
+    }
+    .divider {
+      border: none;
+      border-top: 1px solid #EDEBE8;
+      margin: 28px 0;
+    }
+    .back-link {
+      display: inline-block;
+      margin-top: 8px;
+      padding: 12px 28px;
+      background: #C8102E;
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 14px;
+      border-radius: 4px;
+      transition: background 0.2s ease;
+    }
+    .back-link:hover {
+      background: #9E0B22;
+    }
+    .nav-bar {
+      background: #1A1A1A;
+      padding: 16px 40px;
+      display: flex;
+      align-items: center;
+    }
+    .nav-logo {
+      font-family: 'Playfair Display', serif;
+      color: #ffffff;
+      font-size: 20px;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Nav -->
+  <nav class="nav-bar">
+    <a href="index.html" class="nav-logo">RitchSec</a>
+  </nav>
+
+  <!-- Thank You Card -->
+  <section class="thankyou-section">
+    <div class="thankyou-card">
+
+      <!-- Checkmark icon -->
+      <div class="check-icon">
+        <svg viewBox="0 0 24 24">
+          <polyline points="20 6 9 17 4 12"></polyline>
+        </svg>
+      </div>
+
+      <h1>Message received.</h1>
+
+      <p>Thank you for reaching out — I'll personally review your message and get back to you within one business day.</p>
+
+      <p>If your need is urgent, feel free to call directly at <strong>770-733-0340</strong> or book a time on my calendar below.</p>
+
+      <hr class="divider">
+
+      <p class="signature">— Horacio Ritch<br>Founder, RitchSec</p>
+
+      <a href="https://calendly.com/ritchsec/30min" class="back-link">Schedule a Free Call →</a>
+
+    </div>
+  </section>
+
+</body>
+</html>
